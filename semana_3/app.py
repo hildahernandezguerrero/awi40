@@ -1,7 +1,7 @@
 import web
 
 urls = (
-    '/(.*)', 'mvc.controllers.hello.Hello'
+    '/(.*)', 'mvc.controllers.visitas.Visitas'
 )
 app = web.application(urls, globals())
 
